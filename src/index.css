@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img{
+  width: 100%;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+
+.btn-container{
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+button{
+  padding: .5em .7em;
+  border-radius: 1000rem;
+}
+
+.yes-btn{
+  background-color: green;
+  color: white
+}
+
+.no-btn{
+  background-color: red;
+  color: white;
+}
+
+.text{
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 1em;
+}
+
+@media (max-width: 700px) {
+  .btn-container{
+    width: 100%;
+  }
+}
+
+
+
+
+
