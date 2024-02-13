@@ -21,7 +21,7 @@ function App() {
       {yesPressed? (
         <>
           <div className="img-container">
-            <img src="src\assets\animated-bear-kissing.gif"
+            <img src="https://gifdb.com/images/high/animated-bear-kiss-enngnq0gm2r405bt.gif"
               alt="Bears Kissing" />
           </div>
           <div className="text">BURNIIII MINE</div>
@@ -30,7 +30,7 @@ function App() {
       (
         <>
           <div className="img-container">
-            <img src="src\assets\cute-love-bear-roses.gif"
+            <img src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
                  alt="Cute bear jumping with roses" />
           </div>
           
